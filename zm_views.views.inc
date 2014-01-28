@@ -47,7 +47,7 @@ function zm_views_views_data() {
     'title' => t('Updated date less than'),
     'help' => t('Date in the form of CCYYMMDD.'),
     'argument' => array(
-      'field' => 'created',
+      'field' => 'changed',
       'handler' => 'zm_views_views_handler_argument_date',
     ),
   );
@@ -56,7 +56,7 @@ function zm_views_views_data() {
     'title' => t('Updated date greater than'),
     'help' => t('Date in the form of CCYYMMDD.'),
     'argument' => array(
-      'field' => 'created',
+      'field' => 'changed',
       'handler' => 'zm_views_views_handler_argument_date_greater',
     ),
   );
