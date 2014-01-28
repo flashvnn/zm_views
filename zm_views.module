@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Views extras for ZM package.
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function zm_views_views_api() {
+  return array(
+    'api' => 3,
+  );
+}

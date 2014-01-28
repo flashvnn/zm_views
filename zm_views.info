@@ -1,0 +1,18 @@
+name = ZM Views
+description = Views extras for ZM package.
+core = 7.x
+package = ZM
+
+; Module style sheets and scripts
+; stylesheets[all][] = zm_views.css
+; scripts[] = zm_views.js
+
+; Loadable code files
+files[] = views/handlers/zm_views_views_handler_argument_date.inc
+files[] = views/handlers/zm_views_views_handler_argument_date_greater.inc
+
+; Module dependencies
+dependencies[] = views
+
+; Configuration page
+; configure = admin/config/content/zm_views
